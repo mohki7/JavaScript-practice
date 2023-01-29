@@ -13,7 +13,7 @@ window.addEventListener("DOMContentLoaded", function(){
             priceSum += parseInt(priceVal);
         }
 
-        //　表示用のHTMLを作る
+        // 表示用のHTMLを作る
         let html = '合計金額:<strong>' + priceSum + '</strong>円</div>';
 
         // id='output'の要素のHTML文字列を追加
